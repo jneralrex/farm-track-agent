@@ -86,7 +86,7 @@ const SoilTesterList = () => {
                   <img src={farmer} alt="Farmer" className="h-16 w-16 rounded-full border border-gray-300 mr-4" />
                   <div>
                     <h2 className="text-xl font-semibold text-gray-700">
-                      {`${tester.farmer.profile.firstName} ${tester.farmer.profile.lastName}`}
+                      {`James Afolabi`}
                     </h2>
                     <p className="text-gray-500">{tester.land.location.address}</p>
                   </div>
