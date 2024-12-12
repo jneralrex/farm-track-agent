@@ -105,7 +105,7 @@ const SoilTesterList = () => {
                 </div>
                 <div className="flex justify-between items-center">
                   <Link to={`/single/test-request/${encodeId(tester._id)}`}>
-                    <button className="bg-blue-400 text-white rounded-md hover:bg-blue-600">
+                    <button className="bg-blue-400 text-white text-[10px] p-2 rounded-md hover:bg-blue-600">
                       View More
                     </button>
                   </Link>
